@@ -3,7 +3,7 @@ cask "butler" do
   name "butler"
   desc "Butler Platform Engineering CLI"
   homepage "https://butler.dev"
-  version "0.1.4"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,22 +15,22 @@ cask "butler" do
   on_macos do
     on_intel do
       url "https://github.com/butlerdotdev/butler-cli/releases/download/v#{version}/butler_darwin_amd64.tar.gz"
-      sha256 "ac549ce6e429c95e2c08d117c5913c4ed6218e1c6e94ce84f6401f8b1c3dc8ad"
+      sha256 "ab9de6717a46df4c5b56f1488a8f73519d4d6df86cf027f27a90358b88c0ab1d"
     end
     on_arm do
       url "https://github.com/butlerdotdev/butler-cli/releases/download/v#{version}/butler_darwin_arm64.tar.gz"
-      sha256 "f327a12b09dec25ad8dc14b02458c7f889a7890f73440725c4459eb96234a1da"
+      sha256 "ca51d2161bad4051872049ce15d4cb2862bdb8d54d62def891a4dcb9c2b01a67"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/butlerdotdev/butler-cli/releases/download/v#{version}/butler_linux_amd64.tar.gz"
-      sha256 "f1af70a9227d14cbe5e1d4dde30d1fc52e25492c96aa15c33613dda96afa6a4a"
+      sha256 "b62f5b6d2322c4bcfd7034eaee63750ddda4a48ebe1d44888ff62bcda47f0c97"
     end
     on_arm do
       url "https://github.com/butlerdotdev/butler-cli/releases/download/v#{version}/butler_linux_arm64.tar.gz"
-      sha256 "7fff9cc7f249a675eaf1fa221885ab6e3d8c6959d51d5c67aa4fc5edcc1cc3bc"
+      sha256 "106cbac872fc5ca6e401d1342a953df4b31ed2525ae8fc3ce0bbba1b1b331670"
     end
   end
 
